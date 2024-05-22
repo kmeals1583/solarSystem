@@ -1,0 +1,46 @@
+from turtle import *
+
+speed(0)
+# Background Color
+getscreen().bgcolor("black")
+
+# Move the Turtle over to the Left Side of the Page
+right(180)
+forward(200)
+right(180)
+
+# Draw the Sun
+begin_fill()
+color("orange")
+circle(100)
+end_fill()
+
+# Move to Right - Draw Mercury
+penup()
+forward(140)
+pendown()
+begin_fill()
+color("gray")
+circle(20)
+end_fill()
+
+# Move to Right - Draw Venus
+penup()
+forward(120)
+pendown()
+begin_fill()
+color("red")
+circle(70)
+end_fill()
+
+# Move to Right - Draw Earth
+penup()
+forward(150)
+pendown()
+begin_fill()
+color("green")
+circle(60)
+end_fill()
+
+# Keep Display Screen Up
+done()
